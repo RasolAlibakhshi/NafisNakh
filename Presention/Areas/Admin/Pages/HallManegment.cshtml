@@ -1,0 +1,113 @@
+﻿@page
+@model Presention.Areas.Admin.Pages.HallManegmentModel
+@{
+    ViewData["Title"] = "مدیریت سالن ها";
+}
+
+<div class="container" />
+<div class="row text-center mb-4">
+    <div class=" col-12 col-sm m-1">
+        <a class="btn btn-success"  asp-page="HallManegment">مدیریت سالن ها</a>
+    </div>
+    <div class=" col-12 col-sm m-1">
+        <a class="btn btn-outline-success"  asp-page="MachineManegment">مدیریت ماشین ها</a>
+    </div>
+    <div class=" col-12 col-sm m-1">
+        <a class="btn btn-outline-success"  asp-page="InterwovenManagement">مدیریت همبافت ها</a>
+    </div>
+    <div class=" col-12 col-sm m-1">
+        <a class="btn btn-outline-success" >مدیریت مدیران</a>
+    </div>
+    <div class=" col-12 col-sm m-1">
+        <a class="btn btn-outline-success" >مدیریت لیبل</a>
+    </div>
+    <div class=" col-12 col-sm m-1">
+        <a class="btn btn-outline-success" asp-page="Option_Packaging">مدیریت نوع بسته بندی</a>
+    </div>
+</div>
+
+
+
+
+
+    
+<div class="container">
+    <form method="post">
+        <div class="input-group mb-3" dir="ltr">
+            <button class="btn btn-outline-success" type="submit" id="button-addon1">افزودن</button>
+            <input type="text" asp-for="Name" class="form-control text-center" placeholder="لطفا نام سالن جدید خود را وارد کنید"  aria-label="Example text with button addon" aria-describedby="button-addon1">
+        </div>
+    </form>
+    
+    @if (!Model.data.Any())
+    {
+        <div class="container">
+        <div class="alert alert-danger mx-4" role="alert">
+            هیچ سالنی ثبت نشده است لطفا سالن جدید را از طریق فرم بالا ایجاد کنید.
+        </div>
+        </div>
+        
+        
+    }
+    else
+    {
+        <table class="table table-striped text-center">
+            <thead>
+            <tr>
+                <th>#</th>
+                <th>نام سالن</th>
+                <th>وضعیت</th>
+                <th>عملیات</th>
+            </tr>
+                  
+            </thead>
+            <tbody>
+        
+            @foreach (var ithem in Model.data)
+            {
+                <tr>
+                    <td>@ithem.ID</td>
+                    <td>@ithem.Name</td>
+                    @if (@ithem.IsRemove)
+                    {
+                        <td><img src="~/Images_website/eye-slash-fill.svg" alt=""></td>
+                    }
+                    else
+                    {
+                        <td><img src="~/Images_website/eye-fill.svg" alt=""></td>
+                    }
+                
+                    <td>
+                        <div class="btn-group" dir="ltr">
+                                <a asp-page="EditeHall" asp-route-id="@ithem.ID" class="btn btn-success">ویرایش</a>
+                            @if (!ithem.IsRemove)
+                            {
+                                
+                                
+                                    <a asp-route-id="@ithem.ID" asp-page-handler="Remove" class="btn btn-warning ">غیر فعال کردن</a>
+                                
+                            }
+                            else
+                            {
+                                
+                                    <a asp-route-id="@ithem.ID" asp-page-handler="Restore" class="btn btn-warning ">فعال کردن</a>
+                            }
+
+
+                                <a asp-route-id="@ithem.ID" asp-page-handler="Delete" class="btn btn-danger">حذف فیزیکی</a>
+                        </div></td>
+                </tr>
+            }
+
+        
+
+
+
+            </tbody>
+        </table>
+    }
+
+            
+   
+
+</div>

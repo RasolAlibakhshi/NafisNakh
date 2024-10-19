@@ -1,0 +1,133 @@
+﻿@page
+@using Presention.Areas.Admin.Pages
+@model AddInterwovenModel
+@{
+    ViewData["Title"] = "فرم افزودن همبافت";
+}
+
+
+
+<div class="container">
+    <fieldset>
+        <legend class="text-center">فرم افزودن همبافت</legend>
+        <form method="post" class="form-control">
+
+            <div class="row g-2 align-items-center">
+                
+               
+
+                <div class="col-12 col-sm-3">
+                    <label asp-for="HallName">نام سالن:</label>
+                    <input asp-for="HallName" class=" text-center form-text form-control" type="text" value="@Model.HallName_Form" placeholder="@Model.HallName_Form" >
+                </div>
+                <div class="col-12 col-sm-3">
+                    <label asp-for="MachineName">ماشین:</label>
+                    <input asp-for="MachineName" class=" text-center form-text form-control" type="text" value="@Model.MachineName_Form" placeholder="@Model.MachineName_Form" >
+                </div>
+                <div class="col-12 col-sm-3">
+                    <label asp-for="TypeOfPackaging">نوع بسته بندی:</label>
+                    <input asp-for="TypeOfPackaging" class=" text-center form-text form-control" type="text" placeholder="لطفا نوع بسته بندی را تایپ کنید">
+                </div>
+                <div class="col-12 col-sm-3">
+                    <label asp-for="TypeLabel">نوع لیبل:</label>
+                    <select asp-for="TypeLabel" class="form-select text-center" asp-items="@Model.option">
+
+                    </select>
+                </div>
+            </div>
+
+            <hr>
+            
+            
+
+
+            <div class="row g-2 align-items-center mt-2 mb-2">
+                <div class="col-12 col-sm-3">
+                    <label asp-for="Interwoven"> همبافت:</label>
+                    <input asp-for="Interwoven" class=" text-center form-text form-control" type="text" placeholder="همبافت">
+                </div>
+                <div class="col-12 col-sm-3">
+                    <label asp-for="Den">دنیر:</label>
+                    <input asp-for="Den" class=" text-center form-text form-control"  type="text" placeholder="دنیر">
+                </div>
+                <div class="col-12 col-sm-3">
+                    <label asp-for="Filament">فیلامنت:</label>
+                    <input asp-for="Filament" class=" text-center form-text form-control"  type="text" placeholder="فبلامنت">
+                </div>
+                <div class="col-12 col-sm-2">
+                    <label asp-for="Ply">لا:</label>
+                    <input asp-for="Ply" class=" text-center form-text form-control" type="text" placeholder="لا">
+                </div>
+            </div>
+
+            <div class="row g-2 align-items-center mt-2 mb-2">
+                <div class="col-12 col-sm-3">
+                    <label asp-for="ColorCode"> کد رنگ:</label>
+                    <input asp-for="ColorCode" class=" text-center form-text form-control"  type="text" placeholder="کد رنگ">
+                </div>
+                <div class="col-12 col-sm-3">
+                    <label asp-for="Mingle">مینگل:</label>
+                    <input asp-for="Mingle" class=" text-center form-text form-control"  type="text" placeholder="مینگل">
+                </div>
+                <div class="col-12 col-sm-3">
+                    <label asp-for="Warp_Direction">جهت تاب:</label>
+                    <input asp-for="Warp_Direction" class=" text-center form-text form-control" type="text" placeholder="جهت تاب">
+                </div>
+                <div class="col-12 col-sm-2">
+                    <label asp-for="Yarn_Type">نوع نخ:</label>
+                    <input asp-for="Yarn_Type" class=" text-center form-text form-control" type="text" placeholder="نوع نخ">
+                </div>
+
+            </div>
+
+
+            <div class="row g-2 align-items-center mt-2 mb-2">
+                <div class="col-12 col-sm-3">
+                    <label asp-for="Emptyfield1"> فیلد خالی 1:</label>
+                    <input asp-for="Emptyfield1" class=" text-center form-text form-control"  type="text" placeholder="فیلد خالی 1">
+                </div>
+                <div class="col-12 col-sm-3">
+                    <label asp-for="Emptyfield2">فیلد خالی 2:</label>
+                    <input asp-for="Emptyfield2" class=" text-center form-text form-control"  type="text" placeholder="فیلد خالی 2">
+                </div>
+                <div class="col-12 col-sm-3">
+                    <label asp-for="Emptyfield3">فیلد خالی 3:</label>
+                    <input asp-for="Emptyfield3" class=" text-center form-text form-control"  type="text" placeholder="فیلد خالی 3">
+                </div>
+                <div class="col-12 col-sm-2">
+                    <label asp-for="Emptyfield4">فیلد خالی 4:</label>
+                    <input asp-for="Emptyfield4" class=" text-center form-text form-control"  type="text" placeholder="فیلد خالی 4">
+                </div>
+
+            </div>
+
+
+
+            <div class="row g-2 align-items-center mt-2 mb-2">
+                <div class="col-12 ">
+                    <label asp-for="Description"> توضیحات:</label>
+                    <textarea asp-for="Description" class="form-text form-control"  rows="4" placeholder="لطفا توضیحات کامل لیبل را در این بخش قرار دهید"></textarea>
+                </div>
+
+
+            </div>
+            
+            <div class="col-12 col-sm-3">
+                <input asp-for="MachineId" value="@Model.MachineId" class=" text-center form-text form-control" type="text"  hidden="true">
+            </div>
+
+            <div class="row  justify-content-center  text-center">
+
+                <div class="col-6 mt-2"><button class="btn btn-success" type="submit">ثبت اطلاعات</button></div>
+                <div class="col-6 mt-2"><button class="btn btn-info" type="reset">پاک سازی اطلاعات</button></div>
+
+
+            </div>
+
+
+
+
+        </form>
+
+    </fieldset>
+</div>

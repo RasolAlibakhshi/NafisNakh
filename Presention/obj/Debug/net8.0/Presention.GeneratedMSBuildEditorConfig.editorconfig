@@ -1,0 +1,99 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Presention
+build_property.RootNamespace = Presention
+build_property.ProjectDir = F:\MyProject\Nafisnakh\Presention\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = F:\MyProject\Nafisnakh\Presention
+build_property._RazorSourceGeneratorDebug = 
+
+[F:/MyProject/Nafisnakh/Presention/Areas/Admin/Pages/AddInterwoven.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcQWRkSW50ZXJ3b3Zlbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/MyProject/Nafisnakh/Presention/Areas/Admin/Pages/EditeHall.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcRWRpdGVIYWxsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/MyProject/Nafisnakh/Presention/Areas/Admin/Pages/EditeInterwoven.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcRWRpdGVJbnRlcndvdmVuLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/MyProject/Nafisnakh/Presention/Areas/Admin/Pages/EditeMachineManegment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcRWRpdGVNYWNoaW5lTWFuZWdtZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/MyProject/Nafisnakh/Presention/Areas/Admin/Pages/HallManegment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcSGFsbE1hbmVnbWVudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/MyProject/Nafisnakh/Presention/Areas/Admin/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/MyProject/Nafisnakh/Presention/Areas/Admin/Pages/InterwovenManagement.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcSW50ZXJ3b3Zlbk1hbmFnZW1lbnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/MyProject/Nafisnakh/Presention/Areas/Admin/Pages/MachineManegment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcTWFjaGluZU1hbmVnbWVudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/MyProject/Nafisnakh/Presention/Areas/Admin/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/MyProject/Nafisnakh/Presention/Areas/Admin/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/MyProject/Nafisnakh/Presention/Areas/Admin/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/MyProject/Nafisnakh/Presention/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/MyProject/Nafisnakh/Presention/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/MyProject/Nafisnakh/Presention/Pages/SelectInterwoven.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VsZWN0SW50ZXJ3b3Zlbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/MyProject/Nafisnakh/Presention/Pages/SelectMachine.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VsZWN0TWFjaGluZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/MyProject/Nafisnakh/Presention/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/MyProject/Nafisnakh/Presention/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/MyProject/Nafisnakh/Presention/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/MyProject/Nafisnakh/Presention/Areas/Admin/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-tgrrih6kt1
+
+[F:/MyProject/Nafisnakh/Presention/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-xyg6lvdjl2

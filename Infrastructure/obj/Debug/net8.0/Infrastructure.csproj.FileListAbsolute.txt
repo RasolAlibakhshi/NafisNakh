@@ -1,0 +1,17 @@
+F:\MyProject\Nafisnakh\Infrastructure\bin\Debug\net8.0\Infrastructure.deps.json
+F:\MyProject\Nafisnakh\Infrastructure\bin\Debug\net8.0\Infrastructure.runtimeconfig.json
+F:\MyProject\Nafisnakh\Infrastructure\bin\Debug\net8.0\Infrastructure.dll
+F:\MyProject\Nafisnakh\Infrastructure\bin\Debug\net8.0\Infrastructure.pdb
+F:\MyProject\Nafisnakh\Infrastructure\bin\Debug\net8.0\Domain.dll
+F:\MyProject\Nafisnakh\Infrastructure\bin\Debug\net8.0\Domain.pdb
+F:\MyProject\Nafisnakh\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.AssemblyReference.cache
+F:\MyProject\Nafisnakh\Infrastructure\obj\Debug\net8.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+F:\MyProject\Nafisnakh\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfoInputs.cache
+F:\MyProject\Nafisnakh\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfo.cs
+F:\MyProject\Nafisnakh\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.CoreCompileInputs.cache
+F:\MyProject\Nafisnakh\Infrastructure\obj\Debug\net8.0\Infrastr.15EFFBFE.Up2Date
+F:\MyProject\Nafisnakh\Infrastructure\obj\Debug\net8.0\Infrastructure.dll
+F:\MyProject\Nafisnakh\Infrastructure\obj\Debug\net8.0\refint\Infrastructure.dll
+F:\MyProject\Nafisnakh\Infrastructure\obj\Debug\net8.0\Infrastructure.pdb
+F:\MyProject\Nafisnakh\Infrastructure\obj\Debug\net8.0\Infrastructure.genruntimeconfig.cache
+F:\MyProject\Nafisnakh\Infrastructure\obj\Debug\net8.0\ref\Infrastructure.dll

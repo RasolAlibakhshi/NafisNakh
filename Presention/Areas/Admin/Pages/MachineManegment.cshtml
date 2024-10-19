@@ -1,0 +1,119 @@
+﻿@page
+@model Presention.Areas.Admin.Pages.MachineManegmentModel
+@{
+    ViewData["Title"] = "مدیریت ماشین ها";
+}
+
+<div class="container" />
+<div class="row text-center mb-4">
+    <div class=" col-12 col-sm m-1">
+        <a class="btn btn-outline-success" asp-route-id="1" asp-page="HallManegment">مدیریت سالن ها</a>
+    </div>                    
+    <div class=" col-12 col-sm m-1">
+        <a class="btn btn-success" asp-route-id="2" asp-page="MachineManegment">مدیریت ماشین ها</a>
+    </div>                    
+    <div class=" col-12 col-sm m-1">
+        <a class="btn btn-outline-success" asp-route-id="3" asp-page="InterwovenManagement">مدیریت همبافت ها</a>
+    </div>
+    <div class=" col-12 col-sm m-1">
+        <a class="btn btn-outline-success" asp-route-id="4">مدیریت مدیران</a>
+    </div>
+    <div class=" col-12 col-sm m-1">
+        <a class="btn btn-outline-success" asp-route-id="5">مدیریت لیبل</a>
+    </div>
+    <div class=" col-12 col-sm m-1">
+        <a class="btn btn-outline-success" asp-page="Option_Packaging">مدیریت نوع بسته بندی</a>
+    </div>
+</div>
+
+
+
+
+<div class="container">
+    @foreach (var item in Model.Hall_Data)
+    {
+        <div class="card m-3 border border-success">
+            <div class="card-header display-5 fw-bold text-center text-success">
+                @item.Name
+            </div>
+            <div class="card-body">
+                <blockquote class="blockquote mb-0">
+                    <form method="post">
+                        <div class="input-group mb-3" dir="ltr">
+                            <button class="btn btn-outline-success" type="submit" id="button-addon1">افزودن</button>
+                            <input asp-for="Name" type="text" class="form-control text-center" placeholder="نام ماشین جدید را وارد کنید" aria-label="Example text with button addon" aria-describedby="button-addon1">
+                            <input asp-for="ID" type="text" class="form-control text-center" value="@item.ID" hidden />
+                        </div>
+                    </form>
+
+                    @if (!Model.MyList.Where(x => x.HallID==item.ID).Any())
+                    {
+                        <div class="container">
+                            <div class="alert alert-danger">هیچ ماشینی برای این سالن ایجاد نشده است.</div>
+                        </div>
+                    }
+                    else
+                    {
+                        <table class="table table-striped text-center">
+                            <thead>
+                                <tr>
+                                    <th>#</th>
+                                    <th>نام ماشین</th>
+                                    <th>وضعیت</th>
+                                    <th>عملیات</th>
+                                </tr>
+
+                            </thead>
+                            <tbody>
+
+                                @foreach (var data in Model.MyList.Where(x => x.HallID==item.ID))
+                                {
+                                    <tr>
+                                        <td>@data.MachineID</td>
+                                        <td>@data.MachineName</td>
+                                        @if (data.IsRemoveMachine)
+                                        {
+                                            <td><img src="~/Images_website/eye-slash-fill.svg" alt=""></td>
+                                        }
+                                        else
+                                        {
+                                            <td><img src="~/Images_website/eye-fill.svg" alt=""></td>
+                                        }
+
+                                        <td>
+                                            <div class="btn-group" dir="ltr">
+                                                <a asp-page="EditeMachineManegment" asp-route-id="@data.MachineID" class="btn btn-success">ویرایش</a>
+
+                                                @if (data.IsRemoveMachine)
+                                                {
+                                                    <a asp-page-handler="Restore" asp-route-id="@data.MachineID" class="btn btn-warning">فعال</a>
+                                                }
+                                                else
+                                                {
+                                                    <a asp-page-handler="Remove" asp-route-id="@data.MachineID" class="btn btn-warning">غیر فعال</a>
+                                                }
+
+
+                                                <a asp-page-handler="Delete" asp-route-id="@data.MachineID" class="btn btn-danger">حذف فیریکی</a>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                }
+
+
+
+
+
+                            </tbody>
+                        </table>
+                    }
+
+
+
+                </blockquote>
+            </div>
+        </div>
+    }
+
+
+</div>

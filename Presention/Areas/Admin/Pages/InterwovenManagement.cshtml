@@ -1,0 +1,154 @@
+﻿@page
+@model Presention.Areas.Admin.Pages.InterwovenManagementModel
+@{
+    ViewData["Title"] = "مدیریت همبافت";
+}
+
+
+<div class="container" />
+<div class="row text-center mb-4">
+    <div class=" col-12 col-sm m-1">
+        <a class="btn btn-outline-success" asp-route-id="1" asp-page="HallManegment">مدیریت سالن ها</a>
+    </div>
+    <div class=" col-12 col-sm m-1">
+        <a class="btn btn-outline-success" asp-route-id="2" asp-page="MachineManegment">مدیریت ماشین ها</a>
+    </div>
+    <div class=" col-12 col-sm m-1">
+        <a class="btn btn-success" asp-route-id="3" asp-page="InterwovenManagement">مدیریت همبافت ها</a>
+    </div>
+    <div class=" col-12 col-sm m-1">
+        <a class="btn btn-outline-success" asp-route-id="4">مدیریت مدیران</a>
+    </div>
+    <div class=" col-12 col-sm m-1">
+        <a class="btn btn-outline-success" asp-route-id="5">مدیریت لیبل</a>
+    </div>
+    <div class=" col-12 col-sm m-1">
+        <a class="btn btn-outline-success" asp-page="Option_Packaging">مدیریت نوع بسته بندی</a>
+    </div>
+</div>
+
+
+<div class="container">
+    <div class="border-bottom border-success mb-2">
+        <form action="" method="get" dir="ltr" class="mb-2">
+            <div class="input-group ">
+                <button type="submit" class="form-control btn btn-outline-success">اعمال</button>
+
+                <input type="text" name="" id="InputSearch" class="form-control text-center" aria-label="جستوجو" placeholder="جستوجو">
+
+                <select class="form-select text-center" id="InputSearch">
+                    <option selected>جستوجو بر اساس</option>
+                    <option value="">همبافت</option>
+                    <option value="">سالن</option>
+                    <option value="">ماشین</option>
+                    <option value="">دنیر</option>
+                </select>
+            </div>
+
+        </form>
+    </div>
+
+
+</div>
+
+
+
+@foreach (var Halldata in Model.HallModels)
+{
+    <div class="accordion" id="accordionExample" />
+    <div class="accordion-item">
+        <h2 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne_@Halldata.ID" aria-expanded="true" aria-controls="collapseOne">
+                @Halldata.Name
+            </button>
+        </h2>
+
+        @foreach (var machine in Model.MachineModels)
+        {
+            @if (Halldata.ID == machine.HallID)
+            {
+                <div id="collapseOne_@Halldata.ID" class="accordion-collapse collapse " data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <div class="card">
+                            <div class="card-header bg-body-tertiary">
+                                @machine.Name
+                            </div>
+                            <a class="btn btn-outline-success m-3" asp-page="AddInterwoven" asp-route-id="@machine.ID">افزودن همبافت</a>
+                            
+                                <div class="card-body">
+                                    <div class="container">
+                                        
+                                        <table class="table table-striped text-center">
+                                            <thead>
+                                            <tr>
+                                                <th>#</th>
+                                                <th>همبافت</th>
+                                                <th>وضعیت</th>
+                                                <th>عملیات</th>
+                                            </tr>
+                                            </thead>
+                                            <tbody>
+                                            @foreach (var interwoven in Model.InterwovenModels)
+                                            {
+                                                @if (interwoven.MachineID==machine.ID)
+                                                {
+                                                    @if (interwoven.InterwovenID!=0)
+                                                    {
+                                                        <tr>
+                                                            <td>@interwoven.InterwovenID</td>
+                                                            <td>@interwoven.InterwovenName</td>
+                                                            <td>
+                                                                @if (interwoven.InterwovenVisible)
+                                                                {
+                                                                    <img src="~/Images_website/eye-slash-fill.svg" alt="">
+                                                                }
+                                                                else
+                                                                {
+                                                                    <img src="~/Images_website/eye-fill.svg" alt="">
+                                                                }
+                                                                
+                                                            </td>
+                                                            <td>
+                                                                <div class="btn-group" dir="ltr">
+                                                                <a asp-page="EditeInterwoven" class="btn btn-success" asp-route-id="@interwoven.InterwovenID">ویرایش</a>
+                                                                @if (interwoven.InterwovenVisible)
+                                                                {
+                                                                        <a class="btn btn-warning" asp-page-handler="Restore" asp-route-id="@interwoven.InterwovenID">فعال</a>
+                                                                }
+                                                                else
+                                                                {
+                                                                    <a  class="btn btn-warning" asp-page-handler="Remove" asp-route-id="@interwoven.InterwovenID">غیر فعال</a>
+                                                                }
+                                                                    <a class="btn btn-danger" asp-route-id="@interwoven.InterwovenID" asp-page-handler="Delete">حذف فیریکی</a>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                    }
+                                                    else
+                                                    {
+                                                        <div class="alert alert-warning m-3 p-2">متاسفانه هیچ همبافتی برای این ماشین ثبت نشده است</div>
+                                                    }
+                                                    
+                                                }
+                                                
+
+                                            }
+
+                                            
+                                            
+                                            
+
+                                        </table>
+                                    </div>
+                                </div>
+
+                        </div>
+                    </div>
+                </div>
+            
+            }
+            
+        }
+    </div>
+
+    }

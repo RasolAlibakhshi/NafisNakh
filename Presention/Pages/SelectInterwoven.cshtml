@@ -1,0 +1,80 @@
+﻿@page
+@model Presention.Pages.SelectInterwovenModel
+@{
+    ViewData["Title"] = "انتخاب همبافت";
+}
+
+
+
+
+@if (Model.interwovenModels.Any())
+{
+    <div class="container">
+        <div class="alert alert-success text-center" role="alert">لطفا اطلاعات مورد نیاز را وارد کنید</div>
+    </div>
+    <div class="container" />
+    <table class="table table-striped text-center">
+        <thead>
+        <tr>
+            <th>#</th>
+            <th>همبافت</th>
+            <th>دنیر</th>
+            <th>فیلامنت</th>
+            <th>لا</th>
+            <th>مینگل</th>
+            <th>اطلاعات چاپ</th>
+            
+            
+        </tr>
+        </thead>
+        <tbody>
+
+        @{
+            int Count = 1;
+        }
+        @foreach (var InterWoven in Model.interwovenModels)
+        {
+            <tr>
+
+                <td>@Count</td>
+                <td>@InterWoven.Interwoven</td>
+                <td>@InterWoven.Den</td>
+                <td>@InterWoven.Filament</td>
+                <td>@InterWoven.Ply</td>
+                <td>@InterWoven.Mingle</td>
+
+                <td>
+                    <form method="post">
+                        <div class="input-group " dir="ltr">
+                            
+
+                            
+                            <div class="input-group ">
+                                <input type="number" name="" id="InputSearch" class="form-control text-center" placeholder="تا">
+                                <input type="number" name="" id="InputSearch" class="form-control text-center" placeholder="از">
+                            </div>
+                            <button type="submit" class="form-control btn btn-outline-success">چاپ</button>
+                            <input type="text" name="" id="InputSearch" class="form-control text-center" placeholder="کد پرسنلی">
+                            <input type="text" name="" id="InputSearch" class="form-control text-center" placeholder="تعداد چاپ">
+                            
+                            
+                        </div>
+                    </form>
+                </td>
+                
+            </tr>
+            Count++;
+        }
+
+
+    </table>
+}
+else
+{
+    <div class="container">
+        <div class="alert m-5 p-3 alert-warning">
+            هیچ همبافتی ثبت نشده است
+        </div>
+    </div>
+}
+

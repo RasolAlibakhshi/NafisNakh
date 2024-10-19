@@ -1,0 +1,17 @@
+F:\MyProject\Nafisnakh\Application.Contracts\bin\Debug\net8.0\Application.Contracts.deps.json
+F:\MyProject\Nafisnakh\Application.Contracts\bin\Debug\net8.0\Application.Contracts.dll
+F:\MyProject\Nafisnakh\Application.Contracts\bin\Debug\net8.0\Application.Contracts.pdb
+F:\MyProject\Nafisnakh\Application.Contracts\bin\Debug\net8.0\Domain.dll
+F:\MyProject\Nafisnakh\Application.Contracts\bin\Debug\net8.0\Infrastructure.dll
+F:\MyProject\Nafisnakh\Application.Contracts\bin\Debug\net8.0\Domain.pdb
+F:\MyProject\Nafisnakh\Application.Contracts\bin\Debug\net8.0\Infrastructure.pdb
+F:\MyProject\Nafisnakh\Application.Contracts\obj\Debug\net8.0\Application.Contracts.csproj.AssemblyReference.cache
+F:\MyProject\Nafisnakh\Application.Contracts\obj\Debug\net8.0\Application.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+F:\MyProject\Nafisnakh\Application.Contracts\obj\Debug\net8.0\Application.Contracts.AssemblyInfoInputs.cache
+F:\MyProject\Nafisnakh\Application.Contracts\obj\Debug\net8.0\Application.Contracts.AssemblyInfo.cs
+F:\MyProject\Nafisnakh\Application.Contracts\obj\Debug\net8.0\Application.Contracts.csproj.CoreCompileInputs.cache
+F:\MyProject\Nafisnakh\Application.Contracts\obj\Debug\net8.0\Applicat.6ADCBA11.Up2Date
+F:\MyProject\Nafisnakh\Application.Contracts\obj\Debug\net8.0\Application.Contracts.dll
+F:\MyProject\Nafisnakh\Application.Contracts\obj\Debug\net8.0\refint\Application.Contracts.dll
+F:\MyProject\Nafisnakh\Application.Contracts\obj\Debug\net8.0\Application.Contracts.pdb
+F:\MyProject\Nafisnakh\Application.Contracts\obj\Debug\net8.0\ref\Application.Contracts.dll

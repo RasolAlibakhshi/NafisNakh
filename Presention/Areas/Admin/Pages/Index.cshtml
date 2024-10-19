@@ -1,0 +1,34 @@
+﻿@page
+@model Presention.Areas.Admin.Pages.IndexModel
+@{
+    ViewData["Title"] = "پنل ادمین";
+}
+
+
+
+<div class="container">
+    <div class="alert alert-success text-center" role="alert">
+        به پنل ادمین خوش آمدید.
+    </div>
+</div>
+<div class="container"/>
+<div class="row text-center mb-4">
+    <div class=" col-12 col-sm m-1">
+        <a class="btn btn-outline-success" asp-route-id="1" asp-page="HallManegment">مدیریت سالن ها</a>
+    </div>
+    <div class=" col-12 col-sm m-1">
+        <a class="btn btn-outline-success" asp-route-id="2" asp-page="MachineManegment">مدیریت ماشین ها</a>
+    </div>
+    <div class=" col-12 col-sm m-1">
+        <a class="btn btn-outline-success" asp-route-id="3" asp-page="InterwovenManagement">مدیریت همبافت ها</a>
+    </div>
+    <div class=" col-12 col-sm m-1">
+        <a class="btn btn-outline-success" asp-route-id="4" >مدیریت مدیران</a>
+    </div>
+    <div class=" col-12 col-sm m-1">
+        <a class="btn btn-outline-success" asp-route-id="5" >مدیریت لیبل</a>
+    </div>
+    <div class=" col-12 col-sm m-1">
+        <a class="btn btn-outline-success" asp-page="Option_Packaging">مدیریت نوع بسته بندی</a>
+    </div>
+</div>
