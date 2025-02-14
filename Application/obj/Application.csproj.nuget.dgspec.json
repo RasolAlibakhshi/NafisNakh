@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\MyProject\\Nafisnakh\\Application\\Application.csproj": {}
+    "F:\\فایل های تمرینی\\NafisNakh\\Application\\Application.csproj": {}
   },
   "projects": {
-    "F:\\MyProject\\Nafisnakh\\Application.Contracts\\Application.Contracts.csproj": {
+    "F:\\فایل های تمرینی\\NafisNakh\\Application.Contracts\\Application.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\MyProject\\Nafisnakh\\Application.Contracts\\Application.Contracts.csproj",
+        "projectUniqueName": "F:\\فایل های تمرینی\\NafisNakh\\Application.Contracts\\Application.Contracts.csproj",
         "projectName": "Application.Contracts",
-        "projectPath": "F:\\MyProject\\Nafisnakh\\Application.Contracts\\Application.Contracts.csproj",
+        "projectPath": "F:\\فایل های تمرینی\\NafisNakh\\Application.Contracts\\Application.Contracts.csproj",
         "packagesPath": "C:\\Users\\Rasol\\.nuget\\packages\\",
-        "outputPath": "F:\\MyProject\\Nafisnakh\\Application.Contracts\\obj\\",
+        "outputPath": "F:\\فایل های تمرینی\\NafisNakh\\Application.Contracts\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,11 +33,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "F:\\MyProject\\Nafisnakh\\Domain\\Domain.csproj": {
-                "projectPath": "F:\\MyProject\\Nafisnakh\\Domain\\Domain.csproj"
+              "F:\\فایل های تمرینی\\NafisNakh\\Domain\\Domain.csproj": {
+                "projectPath": "F:\\فایل های تمرینی\\NafisNakh\\Domain\\Domain.csproj"
               },
-              "F:\\MyProject\\Nafisnakh\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "F:\\MyProject\\Nafisnakh\\Infrastructure\\Infrastructure.csproj"
+              "F:\\فایل های تمرینی\\NafisNakh\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "F:\\فایل های تمرینی\\NafisNakh\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }
@@ -76,14 +76,14 @@
         }
       }
     },
-    "F:\\MyProject\\Nafisnakh\\Application\\Application.csproj": {
+    "F:\\فایل های تمرینی\\NafisNakh\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\MyProject\\Nafisnakh\\Application\\Application.csproj",
+        "projectUniqueName": "F:\\فایل های تمرینی\\NafisNakh\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "F:\\MyProject\\Nafisnakh\\Application\\Application.csproj",
+        "projectPath": "F:\\فایل های تمرینی\\NafisNakh\\Application\\Application.csproj",
         "packagesPath": "C:\\Users\\Rasol\\.nuget\\packages\\",
-        "outputPath": "F:\\MyProject\\Nafisnakh\\Application\\obj\\",
+        "outputPath": "F:\\فایل های تمرینی\\NafisNakh\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -105,14 +105,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "F:\\MyProject\\Nafisnakh\\Application.Contracts\\Application.Contracts.csproj": {
-                "projectPath": "F:\\MyProject\\Nafisnakh\\Application.Contracts\\Application.Contracts.csproj"
+              "F:\\فایل های تمرینی\\NafisNakh\\Application.Contracts\\Application.Contracts.csproj": {
+                "projectPath": "F:\\فایل های تمرینی\\NafisNakh\\Application.Contracts\\Application.Contracts.csproj"
               },
-              "F:\\MyProject\\Nafisnakh\\Domain\\Domain.csproj": {
-                "projectPath": "F:\\MyProject\\Nafisnakh\\Domain\\Domain.csproj"
+              "F:\\فایل های تمرینی\\NafisNakh\\Domain\\Domain.csproj": {
+                "projectPath": "F:\\فایل های تمرینی\\NafisNakh\\Domain\\Domain.csproj"
               },
-              "F:\\MyProject\\Nafisnakh\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "F:\\MyProject\\Nafisnakh\\Infrastructure\\Infrastructure.csproj"
+              "F:\\فایل های تمرینی\\NafisNakh\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "F:\\فایل های تمرینی\\NafisNakh\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }
@@ -151,14 +151,14 @@
         }
       }
     },
-    "F:\\MyProject\\Nafisnakh\\Domain\\Domain.csproj": {
+    "F:\\فایل های تمرینی\\NafisNakh\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\MyProject\\Nafisnakh\\Domain\\Domain.csproj",
+        "projectUniqueName": "F:\\فایل های تمرینی\\NafisNakh\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "F:\\MyProject\\Nafisnakh\\Domain\\Domain.csproj",
+        "projectPath": "F:\\فایل های تمرینی\\NafisNakh\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\Rasol\\.nuget\\packages\\",
-        "outputPath": "F:\\MyProject\\Nafisnakh\\Domain\\obj\\",
+        "outputPath": "F:\\فایل های تمرینی\\NafisNakh\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -216,14 +216,14 @@
         }
       }
     },
-    "F:\\MyProject\\Nafisnakh\\Infrastructure\\Infrastructure.csproj": {
+    "F:\\فایل های تمرینی\\NafisNakh\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\MyProject\\Nafisnakh\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "F:\\فایل های تمرینی\\NafisNakh\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "F:\\MyProject\\Nafisnakh\\Infrastructure\\Infrastructure.csproj",
+        "projectPath": "F:\\فایل های تمرینی\\NafisNakh\\Infrastructure\\Infrastructure.csproj",
         "packagesPath": "C:\\Users\\Rasol\\.nuget\\packages\\",
-        "outputPath": "F:\\MyProject\\Nafisnakh\\Infrastructure\\obj\\",
+        "outputPath": "F:\\فایل های تمرینی\\NafisNakh\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -245,8 +245,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "F:\\MyProject\\Nafisnakh\\Domain\\Domain.csproj": {
-                "projectPath": "F:\\MyProject\\Nafisnakh\\Domain\\Domain.csproj"
+              "F:\\فایل های تمرینی\\NafisNakh\\Domain\\Domain.csproj": {
+                "projectPath": "F:\\فایل های تمرینی\\NafisNakh\\Domain\\Domain.csproj"
               }
             }
           }

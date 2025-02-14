@@ -1,101 +1,12 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "F:\\MyProject\\Nafisnakh\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{C3A850FF-00DB-4E64-85A2-3C044D0649CA}|Presention\\Presention.csproj|f:\\myproject\\nafisnakh\\presention\\pages\\selectinterwoven.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C3A850FF-00DB-4E64-85A2-3C044D0649CA}|Presention\\Presention.csproj|solutionrelative:presention\\pages\\selectinterwoven.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4E84B527-D638-4DF8-A103-86E23DA1BDB6}|Application\\Application.csproj|F:\\MyProject\\Nafisnakh\\application\\interwovenmanagement\\interwovenmanagementapplicaion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4E84B527-D638-4DF8-A103-86E23DA1BDB6}|Application\\Application.csproj|solutionrelative:application\\interwovenmanagement\\interwovenmanagementapplicaion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{56167351-CD9B-4DF5-8B9B-A49781B64A61}|Application.Contracts\\Application.Contracts.csproj|F:\\MyProject\\Nafisnakh\\application.contracts\\interwoven\\iinterwovenmanagementapplicaion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56167351-CD9B-4DF5-8B9B-A49781B64A61}|Application.Contracts\\Application.Contracts.csproj|solutionrelative:application.contracts\\interwoven\\iinterwovenmanagementapplicaion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C3A850FF-00DB-4E64-85A2-3C044D0649CA}|Presention\\Presention.csproj|F:\\MyProject\\Nafisnakh\\presention\\areas\\admin\\pages\\interwovenmanagement.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C3A850FF-00DB-4E64-85A2-3C044D0649CA}|Presention\\Presention.csproj|solutionrelative:presention\\areas\\admin\\pages\\interwovenmanagement.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C3A850FF-00DB-4E64-85A2-3C044D0649CA}|Presention\\Presention.csproj|F:\\MyProject\\Nafisnakh\\presention\\pages\\selectinterwoven.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3A850FF-00DB-4E64-85A2-3C044D0649CA}|Presention\\Presention.csproj|solutionrelative:presention\\pages\\selectinterwoven.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "WorkspaceRootPath": "F:\\\u0641\u0627\u06CC\u0644 \u0647\u0627\u06CC \u062A\u0645\u0631\u06CC\u0646\u06CC\\NafisNakh\\",
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 3,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "InterwovenManagement.cshtml",
-              "DocumentMoniker": "F:\\MyProject\\Nafisnakh\\Presention\\Areas\\Admin\\Pages\\InterwovenManagement.cshtml",
-              "RelativeDocumentMoniker": "Presention\\Areas\\Admin\\Pages\\InterwovenManagement.cshtml",
-              "ToolTip": "F:\\MyProject\\Nafisnakh\\Presention\\Areas\\Admin\\Pages\\InterwovenManagement.cshtml",
-              "RelativeToolTip": "Presention\\Areas\\Admin\\Pages\\InterwovenManagement.cshtml",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAAC0AAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-08T12:45:33.669Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IInterwovenManagementApplicaion.cs",
-              "DocumentMoniker": "F:\\MyProject\\Nafisnakh\\Application.Contracts\\Interwoven\\IInterwovenManagementApplicaion.cs",
-              "RelativeDocumentMoniker": "Application.Contracts\\Interwoven\\IInterwovenManagementApplicaion.cs",
-              "ToolTip": "F:\\MyProject\\Nafisnakh\\Application.Contracts\\Interwoven\\IInterwovenManagementApplicaion.cs",
-              "RelativeToolTip": "Application.Contracts\\Interwoven\\IInterwovenManagementApplicaion.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T12:31:47.524Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "InterwovenManagementApplicaion.cs",
-              "DocumentMoniker": "F:\\MyProject\\Nafisnakh\\Application\\InterwovenManagement\\InterwovenManagementApplicaion.cs",
-              "RelativeDocumentMoniker": "Application\\InterwovenManagement\\InterwovenManagementApplicaion.cs",
-              "ToolTip": "F:\\MyProject\\Nafisnakh\\Application\\InterwovenManagement\\InterwovenManagementApplicaion.cs",
-              "RelativeToolTip": "Application\\InterwovenManagement\\InterwovenManagementApplicaion.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAQwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T12:31:25.452Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "SelectInterwoven.cshtml",
-              "DocumentMoniker": "F:\\MyProject\\Nafisnakh\\Presention\\Pages\\SelectInterwoven.cshtml",
-              "RelativeDocumentMoniker": "Presention\\Pages\\SelectInterwoven.cshtml",
-              "ToolTip": "F:\\MyProject\\Nafisnakh\\Presention\\Pages\\SelectInterwoven.cshtml",
-              "RelativeToolTip": "Presention\\Pages\\SelectInterwoven.cshtml",
-              "ViewState": "AQIAACoAAAAAAAAAAAAAADkAAABsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-08T12:28:16.53Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "SelectInterwoven.cshtml.cs",
-              "DocumentMoniker": "F:\\MyProject\\Nafisnakh\\Presention\\Pages\\SelectInterwoven.cshtml.cs",
-              "RelativeDocumentMoniker": "Presention\\Pages\\SelectInterwoven.cshtml.cs",
-              "ToolTip": "F:\\MyProject\\Nafisnakh\\Presention\\Pages\\SelectInterwoven.cshtml.cs",
-              "RelativeToolTip": "Presention\\Pages\\SelectInterwoven.cshtml.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABMAAABUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T12:28:09.039Z"
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }

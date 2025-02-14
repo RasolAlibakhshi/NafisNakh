@@ -17,3 +17,23 @@ F:\MyProject\Nafisnakh\Application\obj\Debug\net8.0\Application.dll
 F:\MyProject\Nafisnakh\Application\obj\Debug\net8.0\refint\Application.dll
 F:\MyProject\Nafisnakh\Application\obj\Debug\net8.0\Application.pdb
 F:\MyProject\Nafisnakh\Application\obj\Debug\net8.0\ref\Application.dll
+F:\فایل های تمرینی\NafisNakh\Application\bin\Debug\net8.0\Application.deps.json
+F:\فایل های تمرینی\NafisNakh\Application\bin\Debug\net8.0\Application.dll
+F:\فایل های تمرینی\NafisNakh\Application\bin\Debug\net8.0\Application.pdb
+F:\فایل های تمرینی\NafisNakh\Application\bin\Debug\net8.0\Application.Contracts.dll
+F:\فایل های تمرینی\NafisNakh\Application\bin\Debug\net8.0\Domain.dll
+F:\فایل های تمرینی\NafisNakh\Application\bin\Debug\net8.0\Infrastructure.dll
+F:\فایل های تمرینی\NafisNakh\Application\bin\Debug\net8.0\Application.Contracts.pdb
+F:\فایل های تمرینی\NafisNakh\Application\bin\Debug\net8.0\Domain.pdb
+F:\فایل های تمرینی\NafisNakh\Application\bin\Debug\net8.0\Infrastructure.pdb
+F:\فایل های تمرینی\NafisNakh\Application\obj\Debug\net8.0\Application.csproj.AssemblyReference.cache
+F:\فایل های تمرینی\NafisNakh\Application\obj\Debug\net8.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+F:\فایل های تمرینی\NafisNakh\Application\obj\Debug\net8.0\Application.AssemblyInfoInputs.cache
+F:\فایل های تمرینی\NafisNakh\Application\obj\Debug\net8.0\Application.AssemblyInfo.cs
+F:\فایل های تمرینی\NafisNakh\Application\obj\Debug\net8.0\Application.csproj.CoreCompileInputs.cache
+F:\فایل های تمرینی\NafisNakh\Application\obj\Debug\net8.0\Application.sourcelink.json
+F:\فایل های تمرینی\NafisNakh\Application\obj\Debug\net8.0\Applicat.44B5EDA2.Up2Date
+F:\فایل های تمرینی\NafisNakh\Application\obj\Debug\net8.0\Application.dll
+F:\فایل های تمرینی\NafisNakh\Application\obj\Debug\net8.0\refint\Application.dll
+F:\فایل های تمرینی\NafisNakh\Application\obj\Debug\net8.0\Application.pdb
+F:\فایل های تمرینی\NafisNakh\Application\obj\Debug\net8.0\ref\Application.dll

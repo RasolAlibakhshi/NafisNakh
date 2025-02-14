@@ -15,3 +15,21 @@ F:\MyProject\Nafisnakh\Application.Contracts\obj\Debug\net8.0\Application.Contra
 F:\MyProject\Nafisnakh\Application.Contracts\obj\Debug\net8.0\refint\Application.Contracts.dll
 F:\MyProject\Nafisnakh\Application.Contracts\obj\Debug\net8.0\Application.Contracts.pdb
 F:\MyProject\Nafisnakh\Application.Contracts\obj\Debug\net8.0\ref\Application.Contracts.dll
+F:\فایل های تمرینی\NafisNakh\Application.Contracts\bin\Debug\net8.0\Application.Contracts.deps.json
+F:\فایل های تمرینی\NafisNakh\Application.Contracts\bin\Debug\net8.0\Application.Contracts.dll
+F:\فایل های تمرینی\NafisNakh\Application.Contracts\bin\Debug\net8.0\Application.Contracts.pdb
+F:\فایل های تمرینی\NafisNakh\Application.Contracts\bin\Debug\net8.0\Domain.dll
+F:\فایل های تمرینی\NafisNakh\Application.Contracts\bin\Debug\net8.0\Infrastructure.dll
+F:\فایل های تمرینی\NafisNakh\Application.Contracts\bin\Debug\net8.0\Domain.pdb
+F:\فایل های تمرینی\NafisNakh\Application.Contracts\bin\Debug\net8.0\Infrastructure.pdb
+F:\فایل های تمرینی\NafisNakh\Application.Contracts\obj\Debug\net8.0\Application.Contracts.csproj.AssemblyReference.cache
+F:\فایل های تمرینی\NafisNakh\Application.Contracts\obj\Debug\net8.0\Application.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+F:\فایل های تمرینی\NafisNakh\Application.Contracts\obj\Debug\net8.0\Application.Contracts.AssemblyInfoInputs.cache
+F:\فایل های تمرینی\NafisNakh\Application.Contracts\obj\Debug\net8.0\Application.Contracts.AssemblyInfo.cs
+F:\فایل های تمرینی\NafisNakh\Application.Contracts\obj\Debug\net8.0\Application.Contracts.csproj.CoreCompileInputs.cache
+F:\فایل های تمرینی\NafisNakh\Application.Contracts\obj\Debug\net8.0\Application.Contracts.sourcelink.json
+F:\فایل های تمرینی\NafisNakh\Application.Contracts\obj\Debug\net8.0\Applicat.6ADCBA11.Up2Date
+F:\فایل های تمرینی\NafisNakh\Application.Contracts\obj\Debug\net8.0\Application.Contracts.dll
+F:\فایل های تمرینی\NafisNakh\Application.Contracts\obj\Debug\net8.0\refint\Application.Contracts.dll
+F:\فایل های تمرینی\NafisNakh\Application.Contracts\obj\Debug\net8.0\Application.Contracts.pdb
+F:\فایل های تمرینی\NafisNakh\Application.Contracts\obj\Debug\net8.0\ref\Application.Contracts.dll

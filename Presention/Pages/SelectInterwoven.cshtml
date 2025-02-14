@@ -3,6 +3,10 @@
 @{
     ViewData["Title"] = "انتخاب همبافت";
 }
+@section CSS
+{
+    <link href="~/Taliwind/output.css" rel="stylesheet">
+}
 
 
 
@@ -10,64 +14,94 @@
 @if (Model.interwovenModels.Any())
 {
     <div class="container">
-        <div class="alert alert-success text-center" role="alert">لطفا اطلاعات مورد نیاز را وارد کنید</div>
+        <div class="alert alert-success text-center" role="alert">لطفا لیبل مورد نظر خود را انتخاب کنید</div>
     </div>
     <div class="container" />
     <table class="table table-striped text-center">
         <thead>
-        <tr>
-            <th>#</th>
-            <th>همبافت</th>
-            <th>دنیر</th>
-            <th>فیلامنت</th>
-            <th>لا</th>
-            <th>مینگل</th>
-            <th>اطلاعات چاپ</th>
-            
-            
-        </tr>
+            <tr>
+                <th>#</th>
+                <th>همبافت</th>
+                <th>دنیر</th>
+                <th>فیلامنت</th>
+                <th>لا</th>
+                <th>مینگل</th>
+                <th>اطلاعات چاپ</th>
+
+
+            </tr>
         </thead>
         <tbody>
 
-        @{
-            int Count = 1;
-        }
-        @foreach (var InterWoven in Model.interwovenModels)
-        {
-            <tr>
+            @{
+                int Count = 1;
+            }
+            @foreach (var InterWoven in Model.interwovenModels)
+            {
+                <tr>
 
-                <td>@Count</td>
-                <td>@InterWoven.Interwoven</td>
-                <td>@InterWoven.Den</td>
-                <td>@InterWoven.Filament</td>
-                <td>@InterWoven.Ply</td>
-                <td>@InterWoven.Mingle</td>
+                    <td>@Count</td>
+                    <td>@InterWoven.Interwoven</td>
+                    <td>@InterWoven.Den</td>
+                    <td>@InterWoven.Filament</td>
+                    <td>@InterWoven.Ply</td>
+                    <td>@InterWoven.Mingle</td>
 
-                <td>
-                    <form method="post">
-                        <div class="input-group " dir="ltr">
-                            
+                    <td>
 
-                            
-                            <div class="input-group ">
-                                <input type="number" name="" id="InputSearch" class="form-control text-center" placeholder="تا">
-                                <input type="number" name="" id="InputSearch" class="form-control text-center" placeholder="از">
-                            </div>
-                            <button type="submit" class="form-control btn btn-outline-success">چاپ</button>
-                            <input type="text" name="" id="InputSearch" class="form-control text-center" placeholder="کد پرسنلی">
-                            <input type="text" name="" id="InputSearch" class="form-control text-center" placeholder="تعداد چاپ">
-                            
-                            
-                        </div>
-                    </form>
-                </td>
-                
-            </tr>
-            Count++;
-        }
+
+
+                        @{
+                            string url = Url.Page("./SelectInterwoven", "ModalLabel", new { id = InterWoven.ID });
+                        }
+
+
+
+                        <button type="submit" onclick="showModal('@url','چاپ')" class="btn btn-outline-success">انتخاب</button>
+
+
+
+
+
+                    </td>
+
+                </tr>
+                Count++;
+            }
 
 
     </table>
+
+    <!-- modal -->
+    <div id="modal" class="hidden bg-stone-500 opacity-90 w-screen h-screen fixed left-0 top-0 " style="z-index: 1;">
+        <div id="modal-contetnt" class=" bg-white  mx-auto my-4 rounded shadow" style="width: 80%;">
+
+            <div class="flex h-4 items-center m-4 justify-between">
+                <div class="mt-7" id="modal-title">
+                </div>
+
+                <div class="mt-7" id="modal-close">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-square text-red-700 hover:text-red-500 cursor-pointer" viewBox="0 0 16 16">
+                        <path d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z" />
+                        <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708" />
+                    </svg>
+                </div>
+            </div>
+
+
+
+            <br>
+            <div class="p-8 overflow-auto" style="height:500px;" id="modal-data">
+                <p>این قسمت محل قرار گیری اطلاعات است</p>
+            </div>
+            <br>
+
+
+
+
+        </div>
+    </div>
+
 }
 else
 {
@@ -78,3 +112,142 @@ else
     </div>
 }
 
+
+
+
+
+@section SCRIPT
+{
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+    <script src="~/js/Label.js"></script>
+    <script>
+        // modal
+        let modal = document.getElementById('modal');
+        let contetnt = document.getElementById('modal-contetnt');
+        let close = document.getElementById('modal-close');
+        let modaltitle = document.getElementById('modal-title');
+        let modaldata = document.getElementById('modal-data');
+        close.addEventListener("click", () => {
+            modal.classList.add("hidden");
+        });
+        function showModal(url, title) {
+
+
+            modaltitle.textContent = title;
+
+            $.ajax({
+                url: url,
+                type: "GET",
+                success: function (res) {
+                    modaldata.innerHTML = res;
+                },
+                error: function () { }
+            });
+
+
+            modal.classList.remove("hidden");
+
+
+
+        }
+
+
+       
+
+        //stting printer
+
+
+
+
+
+
+
+
+
+        //selectport
+
+        var port;
+        var writer;
+
+
+        function Sendprint(data) {
+            if (writer) {
+                
+                const encoder = new TextEncoder();
+                const encodedData = encoder.encode(`${data}\n`);
+
+                writer.write(encodedData)
+                    .then(() => {
+                        console.log("داده ارسال شد");
+                    })
+                    .catch((error) => {
+                        console.log("خطا در ارسال داده:", error);
+                    });
+            }
+        }
+
+        // اتصال به پورت سریال
+         function connect() {
+            navigator.serial.requestPort()
+                .then((selectedPort) => {
+                    port = selectedPort;
+                    return port.open({ baudRate: 9600 });
+                })
+                .then(() => {
+                    writer = port.writable.getWriter();
+                    console.log("اتصال برقرار شد");
+
+                    var i = START - 1;
+                     while (i < END) {
+                        
+                        labelone = COUNT[i++];
+                        labeltwo = COUNT[i++];
+                        labeltree = COUNT[i++];
+                        setTimeout( Sendprint(lable), 1000);
+                        
+
+                        
+
+                    }
+                    console.log("پایان چاپ");
+
+                })
+                .catch((e) => {
+                    console.log("اتصال به پورت سریال شکست خورد:", e);
+                });
+        }
+
+
+        
+
+
+
+        function PrintLabel() {
+            
+            HAMBAFT = document.querySelector("#Interwoven").value;
+            DENIER = document.querySelector("#Den").value;
+            FILAMENT = document.querySelector("#Filament").value;
+            lA = document.querySelector("#Ply").value;
+            MINGEL = document.querySelector("#Mingle").value;
+            SALON = document.querySelector("#MachineCode").value;
+            MACHINE = document.querySelector("#MachineCode").value;
+            PERSONCODE = document.querySelector("#Personcode").value;
+            START = parseInt(document.querySelector("#NumberStr").value, 10);
+            END = parseInt(document.querySelector("#NumberEnd").value, 10);
+            Datee = document.querySelector("#Date").value;
+            for (let ii = START; ii <= END; ii++) {
+                COUNT.push(ii);
+            }
+            console.log(COUNT);
+
+            connect();
+
+            
+
+        }
+
+
+    </script>
+}

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\MyProject\\Nafisnakh\\Domain\\Domain.csproj": {}
+    "F:\\فایل های تمرینی\\NafisNakh\\Domain\\Domain.csproj": {}
   },
   "projects": {
-    "F:\\MyProject\\Nafisnakh\\Domain\\Domain.csproj": {
+    "F:\\فایل های تمرینی\\NafisNakh\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\MyProject\\Nafisnakh\\Domain\\Domain.csproj",
+        "projectUniqueName": "F:\\فایل های تمرینی\\NafisNakh\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "F:\\MyProject\\Nafisnakh\\Domain\\Domain.csproj",
+        "projectPath": "F:\\فایل های تمرینی\\NafisNakh\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\Rasol\\.nuget\\packages\\",
-        "outputPath": "F:\\MyProject\\Nafisnakh\\Domain\\obj\\",
+        "outputPath": "F:\\فایل های تمرینی\\NafisNakh\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

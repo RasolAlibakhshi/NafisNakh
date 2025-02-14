@@ -9,3 +9,15 @@ F:\MyProject\Nafisnakh\Domain\obj\Debug\net8.0\Domain.dll
 F:\MyProject\Nafisnakh\Domain\obj\Debug\net8.0\refint\Domain.dll
 F:\MyProject\Nafisnakh\Domain\obj\Debug\net8.0\Domain.pdb
 F:\MyProject\Nafisnakh\Domain\obj\Debug\net8.0\ref\Domain.dll
+F:\فایل های تمرینی\NafisNakh\Domain\bin\Debug\net8.0\Domain.deps.json
+F:\فایل های تمرینی\NafisNakh\Domain\bin\Debug\net8.0\Domain.dll
+F:\فایل های تمرینی\NafisNakh\Domain\bin\Debug\net8.0\Domain.pdb
+F:\فایل های تمرینی\NafisNakh\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+F:\فایل های تمرینی\NafisNakh\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+F:\فایل های تمرینی\NafisNakh\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+F:\فایل های تمرینی\NafisNakh\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+F:\فایل های تمرینی\NafisNakh\Domain\obj\Debug\net8.0\Domain.sourcelink.json
+F:\فایل های تمرینی\NafisNakh\Domain\obj\Debug\net8.0\Domain.dll
+F:\فایل های تمرینی\NafisNakh\Domain\obj\Debug\net8.0\refint\Domain.dll
+F:\فایل های تمرینی\NafisNakh\Domain\obj\Debug\net8.0\Domain.pdb
+F:\فایل های تمرینی\NafisNakh\Domain\obj\Debug\net8.0\ref\Domain.dll
